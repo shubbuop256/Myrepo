@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import telebot
 import requests
 import json
@@ -279,4 +280,4 @@ while True:
         print("ðŸ¤– Bot polling started...")
         bot.polling(non_stop=True, timeout=30) 
     except Exception as e:
-        print(f"ðŸ”
+        print(f"ï¿½
