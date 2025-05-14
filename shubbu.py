@@ -280,4 +280,5 @@ while True:
         print("🤖 Bot polling started...")
         bot.polling(non_stop=True, timeout=30) 
     except Exception as e:
-        print(f"�
+        print(f"🔥 Polling error: {e}")
+        time.sleep(5)
